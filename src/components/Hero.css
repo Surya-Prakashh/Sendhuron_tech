@@ -1,5 +1,5 @@
 .hero {
-    background: url('/public/images/herohero-bg.gif') no-repeat center center/cover;
+    background: url('https://s3-alpha-sig.figma.com/img/0ba2/2644/bbe140d3e703a4dd604fa808360d3774?Expires=1745193600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=LslWFO9YgVUO7LtsOMzch-7ar5z3QDjTOoODhh5bsu6cO-0BpgiJi1NYg6YXpEPNhUAK3LaB9LoF63UZTKHGd1Pw86o09wlqkCcnXfkc9158qwoXJ4zkxdVMUn-HFA58CUqeNlFc7MvsHJNcIjjq9zaHrMpX1~Yu3k-L7C7TEegy23fKuTzwQ5BMkkT7Me8nXjPRn5pSfBn~lH3aKgwTXeiQemKDrErRjInZu4KKUcKJhbJaeZRbFzNHs2Ngi~q0H3CKFI-D3Il8mVxWG645Oo9WyV~--2XbSXKKwvS7J-ztieefm8umotslOIMqIw6dHQjx6rGsxP7NYHTGLb5Msg__') no-repeat center center/cover;
     height: 100vh;
     color: rgb(19, 18, 18);
     text-align: center;
