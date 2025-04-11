@@ -1,0 +1,103 @@
+/* Services.css */
+
+.services-section {
+    padding: 60px 20px;
+    background: linear-gradient(to right, #f9f9f9, #fdf7f4);
+  }
+  
+  .services-section h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #6c4b3c;
+    font-weight: 600;
+  }
+  
+  .service-card {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    padding: 20px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    transition: all 0.3s ease;
+    background-color: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .service-card:hover {
+    background-color: #fef1ed;
+    transform: scale(1.02);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .service-image {
+    width: 200px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-right: 20px;
+    flex-shrink: 0;
+  }
+  
+  .service-info {
+    flex: 1;
+    transition: max-height 0.3s ease;
+  }
+  
+  .service-info h3 {
+    margin: 0 0 10px;
+    font-size: 22px;
+    color: #1c1c1c;
+  }
+  
+  .service-info p {
+    margin: 0;
+    color: #555;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease, opacity 0.3s ease;
+    opacity: 0;
+  }
+  
+  .service-card:hover .service-info p {
+    max-height: 100px;
+    opacity: 1;
+  }
+  
+  .action-buttons {
+    display: flex;
+    gap: 12px;
+    margin-top: 15px;
+  }
+  
+  .btn-know,
+  .btn-book {
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: 2px solid #333;
+    background-color: transparent;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-know:hover {
+    background-color: #fff;
+    color: #e74c3c;
+    border-color: #e74c3c;
+  }
+  
+  .btn-book {
+    background-color: #e74c3c;
+    color: white;
+    border-color: #e74c3c;
+  }
+  
+  .btn-book:hover {
+    background-color: #c0392b;
+    border-color: #c0392b;
+  }
+  
